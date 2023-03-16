@@ -1,0 +1,38 @@
+body{
+    background-color: #019340;
+    color: #F8C301;
+}
+h2{
+    text-align: center;
+    color: #29166F;
+}
+
+table{
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+tbody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+tr{
+    display: flex;
+    flex-direction: column;
+}
+th, td{
+    margin: 15px auto;
+}
+div{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+img{
+    border: 1px solid black;
+    border-radius: 10px;
+}

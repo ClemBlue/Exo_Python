@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <title>Info PC</title>
+</head>
+<body>
+    <h2>Voici les informations sur votre ordinateur</h2>
+    <table>
+        <tr>
+            <th>Système d'exploitation</th>
+            <th>Processeur</th>
+        </tr>
+        <tr>
+            <td>{{ system }}</td>
+            <td>{{ processor }}</td>
+        </tr>
+    </table>
+    <div>
+        <img alt="BRAZIL" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.A15-iV0o0iue0BtCv79oJAHaFL%26pid%3DApi&f=1&ipt=3c1edfee6ccef46ee5c17e4d42cfe306e6ddc200ae9a3ebd6504bfd79c6e508c&ipo=images" />
+    </div>
+</body>
+</html>
